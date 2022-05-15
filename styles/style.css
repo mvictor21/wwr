@@ -1,0 +1,30 @@
+.content{
+    margin: 0 auto;
+    max-width: 1600px;
+    background-color: blue;
+}
+
+.navigation{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.hero{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.button-box{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.main{
+    text-align: center;
+    background-color: wheat;
+}
+
+.background{
+    height: 725px   ;
+    background-color: burlywood;
+}
