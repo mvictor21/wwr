@@ -15,3 +15,15 @@
     background-color: darkgoldenrod;
     text-align: center;
 }
+footer {
+    background-color: steelblue;
+    color: white;
+}
+
+footer p{
+    padding: 25px;
+}
+h1 {
+    margin: 50px 0;
+}
+
