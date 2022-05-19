@@ -6,6 +6,9 @@
 body {
     margin: 0;
 }
+img {
+    border: 4x solid steelblue;
+}
 nav {
     background-color: steelblue;
     padding: 25px;
