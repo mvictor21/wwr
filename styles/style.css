@@ -3,6 +3,13 @@
     max-width: 1600px;
     text-align: center;
 }
+nav {
+    background-color: steelblue;
+}
+a {
+    color: white;
+}
+
 #background{
     height: 725px;
 }
