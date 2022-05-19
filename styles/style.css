@@ -3,11 +3,16 @@
     max-width: 1600px;
     text-align: center;
 }
+body {
+    margin: 0;
+}
 nav {
     background-color: steelblue;
+    padding: 25px;
 }
 a {
     color: white;
+    padding: 25px;
 }
 
 #background{
