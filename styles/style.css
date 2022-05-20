@@ -7,9 +7,18 @@
     text-align: center;
 }
 
-h1 {
-font-family: "Roboto, serif"
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
 
+#logo_link {
+            padding-top: 5px;
+}
+
+h1 {
+    font-family: "Roboto, serif";
+    margin: 50px 0;
 }
 
 h4 {
@@ -33,8 +42,18 @@ img {
 }
 
 nav {
+    padding: 35px;
     background-color: steelblue;
     padding: 25px;
+}
+
+.book, .join {
+    margin-top: 50px;
+    padding: 15px 30 px;
+}
+
+.rivers-card,  .camping-card, .rapid-card {
+    margin: 200px 0;
 }
 
 a {
@@ -54,17 +73,24 @@ a {
     background-color: #6f7364;
     line-height: 1.5em;
     text-align: center;
+    padding: 35px;
+}
+
+.msg p {
+        padding-bottom: 15px;
+}
+
+.img p {
+        padding-bottom: 15px;
 }
 
 footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social {
     background-color: steelblue;
     color: white;
-}
-
-footer p{
-    padding: 25px;
-}
-
-h1 {
-    margin: 50px 0;
+    padding-top: 15px;
 }
