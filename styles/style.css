@@ -2,22 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 .content{
-    margin: 0 auto;
     max-width: 1600px;
     text-align: center;
+}
+
+#content {
+    margin: 0 auto;
 }
 
 .home-title {
     font-size: 2em;
     margin-top: 10px;
+    color: darkgray;
 }
 
 main section img {
+    text-align: center;
     box-sizing: border-box;
 }
 
 #logo_link {
             padding-top: 5px;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
 }
 
 h1 {
@@ -29,12 +42,28 @@ h2 {
     font-family: "Roboto, serif";
 }
 
+h4 {
+    color:rgba(20,30,13, .7)
+}
+
+.book:hover, .join:hover {
+    color: chocolate;
+}
+
+.msg h2 {
+    color: brown;
+}
+
 body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color:rgba(20,30,13, .7);
 }
 
 h2 {
@@ -46,14 +75,34 @@ h2 {
 }
 
 nav {
+    text-align: center;
     padding: 35px;
     background-color: steelblue;
     padding: 25px;
 }
 
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+.icon {
+    width: 80px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
 .book, .join {
-    margin-top: 50px;
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 
@@ -66,7 +115,8 @@ a {
     padding: 25px;
 }
 
-#background{
+#background {
+    background-color: burlywood;
     height: 725px;
 }
 
@@ -84,7 +134,8 @@ a {
 }
 
 .msg p {
-        padding-bottom: 15px;
+    padding-bottom: 15px;
+    color: darkblue
 }
 
 .img p {
@@ -94,6 +145,25 @@ a {
 footer {
     padding: 25px 50px;
     margin-top: 200px;
+}
+
+footer h3 {
+    text-decoration: none;
+    color: black
+}
+
+footer h3 a:hoover {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black
+}
+
+footer a:hover {
+    color: black
 }
 
 footer .social {
