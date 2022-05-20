@@ -152,7 +152,7 @@ footer h3 {
     color: black
 }
 
-footer h3 a:hoover {
+footer h3 a:hover {
     text-decoration: none;
     color: black;
 }
