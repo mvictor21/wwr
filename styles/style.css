@@ -12,6 +12,10 @@
     margin-top: 10px;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #logo_link {
             padding-top: 5px;
 }
@@ -37,8 +41,8 @@ h2 {
     margin: 0;
 }
 
-img {
-    border: 4x solid steelblue;
+.card-img {
+    border: 10x solid black;    
 }
 
 nav {
@@ -50,6 +54,7 @@ nav {
 .book, .join {
     margin-top: 50px;
     padding: 15px 30 px;
+    border-radius: 5px;
 }
 
 .rivers-card,  .camping-card, .rapid-card {
@@ -64,6 +69,7 @@ a {
 #background{
     height: 725px;
 }
+
 .bgClear{
     display: flex;
     justify-content: left;
@@ -74,6 +80,7 @@ a {
     line-height: 1.5em;
     text-align: center;
     padding: 35px;
+    border: 10px solid black;
 }
 
 .msg p {
