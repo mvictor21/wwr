@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.content{
+#content{
     max-width: 1600px;
+    margin: 0 auto;
     text-align: center;
     justify-content: center;
     justify-items: center;
-}
-
-#content {
-    margin: 0 auto;
 }
 
 .home-title {
     font-size: 2em;
     margin-top: 10px;
     color: darkgray;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    background-color:rgba(20,30,13, .7);
 }
 
 main section img {
@@ -27,35 +30,6 @@ main section img {
             padding-top: 5px;
 }
 
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-h1 {
-    font-family: "Roboto, serif";
-    margin: 50px 0;
-}
-
-h2 {
-    font-family: "Roboto, serif";
-}
-
-h4 {
-    color:rgba(20,30,13, .7)
-}
-
-.book:hover, .join:hover {
-    color: chocolate;
-}
-
-.msg h2 {
-    color: brown;
-}
-
 body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
@@ -64,14 +38,24 @@ body {
     padding: 0;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 300px auto;
-    background-color:rgba(20,30,13, .7);
+#hero-msg h1, #hero-msg h4 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Roboto, serif";
+    color:rgba(20,30,13, .7)
 }
 
 h2 {
-    margin: 0;
+    margin: 0 auto;
+    font-family: "Roboto, serif";
+}
+
+.book:hover, .join:hover {
+    color: chocolate;
+}
+
+.msg h2 {
+    color: brown;
 }
 
 .card-img {
@@ -101,6 +85,7 @@ nav a:hover {
 }
 
 .book, .join {
+    text-align: center;
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;
@@ -124,11 +109,6 @@ a {
     height: 725px;
 }
 
-.bgClear{
-    display: flex;
-    justify-content: left;
-}
-
 .msg{
     background-color: #6f7364;
     line-height: 1.5em;
@@ -149,6 +129,11 @@ a {
 footer {
     padding: 25px 50px;
     margin-top: 200px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    text-size-adjust: 1.2em;
 }
 
 footer h3 {
