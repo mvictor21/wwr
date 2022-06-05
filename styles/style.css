@@ -6,10 +6,10 @@
     margin: 0 auto;
     text-align: center;
     justify-content: center;
-    justify-items: center;
 }
 
 .home-title {
+    grid: display;
     text-align: center;
     font-size: 2em;
     margin-top: 10px;
@@ -40,7 +40,6 @@ header {
 
 main section img {
     display: grid;
-    grid-template-columns: 10fr;
     text-align: center;
     box-sizing: border-box;
 }
@@ -125,20 +124,20 @@ h2 {
 
 .rivers-card {
     display: grid;
-    grid-template-columns: 2fr 4fr;
-    grid-row: 2fr 3fr;
+    grid-column-start: 2fr 4fr;
+    grid-row-end: 2fr 3fr;
 }
 
 .camping-card {
     display: grid;
-    grid-template-columns: 5fr 7fr;
-    grid-row: 2fr 3fr;
+    grid-template-columns: 5/7;
+    grid-row: 2/3;
 }
 
 .rapids-card {
     display: grid;
-    grid-template-columns: 8fr 10fr;
-    grid-row: 2fr 3fr;
+    grid-template-columns: 8/10;
+    grid-row: 2/3;
 }
 
 .rivers-card,  .camping-card, .rapid-card {
@@ -175,8 +174,8 @@ a {
 
 #background {
     display: grid;
-    grid-template-columns: 1fr 11fr;
-    grid-row: 4fr 9fr;
+    grid-template-columns: 1/11;
+    grid-row: 4/9;
     background-color: burlywood;
     height: 725px;
 }
@@ -213,7 +212,7 @@ footer {
 
 footer p a:hover {
     text-decoration: underline;
-    text-size-adjust: 1.2em;
+    text-size-adjust: 2px;
 }
 
 footer h3 {
