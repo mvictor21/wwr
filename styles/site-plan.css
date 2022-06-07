@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #000000;  /* headlines on a white background */ 
+  --headline-color-on-white: #0CFF03;  /* headlines on a white background */ 
   --headline-color-on-color: #0CFF03; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #0CFF03; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #0CFF03; /* paragraph text on a colored background */ 
   --paragraph-background-color: #000000  ;
   --nav-link-color: ##0CFF03;
-  --nav-background-color: #000000;
-  --nav-hover-link-color: #000000;
-  --nav-hover-background-color: #585655;
+  --nav-background-color: #585655;
+  --nav-hover-link-color: #0CFF03;
+  --nav-hover-background-color: #000000;
 }
 
 
@@ -64,7 +64,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
+  color: var(--headline-color-on-color);
   padding: 1em;
 }
 .colors {
@@ -143,17 +143,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(88 86 85);
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(88 86 85);
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(88 86 85);
   line-height: 3em;
 }
 
